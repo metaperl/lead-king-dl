@@ -1,22 +1,22 @@
 # lead-king-dl
 automatically download leads from www.lead-king.net
 
-# Project requirements
+# ACKNOWLEDGEMENTS
 
-Able to execute in headless mode.
+## This code was written by Bartosz Kolodziej
 
-Probably best to use Requests and Beautiful soup.
+* /u/hectorlab on reddit
+* official website - http://bartoszkolodziej.com
 
-Add a requirements.txt file to the repo with the
-dependencies used.
+Here is the spec he coded to:
 
-# Project Spec
+### Project Spec
 
-## 1. Visit the main page
+#### 1. Visit the main page
 
 https://www.lead-king.net/
 
-## 2. Login to the account 
+#### 2. Login to the account 
 
 Click "Login" which will bring you to this page since you are
 not authenticated:
@@ -27,13 +27,13 @@ The source code of the login page is in
 the file `data\login-page.html` in this repo for
 reference.
 
-## 3. Visit the leads page
+#### 3. Visit the leads page
 
 Once logged in, you may make a GET request to this page
 
 https://www.lead-king.net/amember/promember/
 
-## 4. Download the leads
+#### 4. Download the leads
 
 On the leads page you will see a link to download
 today's leads:
@@ -42,10 +42,11 @@ today's leads:
 
 Download the .zip file into the `downloads` folder.
 
-## 5. Unzip the zip file
+#### 5. Unzip the zip file
 
-## 6. Append the CSV file contents into a a weekly file
+#### 6. Append the CSV file contents into a a weekly file
 
 The file is probably best named for the year and week of the year.
 E.g: 2022-02 contains all files downloaded during the 2nd week
 of 2022.
+
