@@ -1,0 +1,185 @@
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Please login</title>
+        <!-- userLayoutHead() start -->
+
+
+<meta name="generator" content="aMember Pro">
+<link href="https://www.lead-king.net/amember/login" rel="canonical">
+<link href="/amember/application/default/views/public/css/reset.css?1348901837" media="screen" rel="stylesheet" type="text/css">
+<link href="/amember/application/default/views/public/css/amember.css?1348901837" media="screen" rel="stylesheet" type="text/css">
+<!--[if IE 7]> <link href="/amember/application/default/views/public/css/ie-7.css" media="screen" rel="stylesheet" type="text/css" ><![endif]-->
+<link href="/amember/application/default/views/public/js/jquery/jquery.ui.css?1348901837" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript">
+    //<!--
+    window.uiDefaultDate = new Date(2022,1,14);
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.momentDateFormat = "MM\/DD\/YY";
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.uiDateFormat = "mm\/dd\/y";
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    am_i18n = {"toggle_password_visibility":"Toggle Password Visibility","password_strength":"Password Strength","upload_browse":"browse","upload_upload":"upload","upload_files":"Uploaded Files","upload_uploading":"Uploading...","ms_please_select":"-- Please Select --","ms_select_all":"Select All","please_wait":"Please Wait..."};    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.rootUrl = "\/amember"; //kept for compatibilty only! use amUrl() instead
+function amUrl(u, return_path) {
+    var ret = "\/amember" + u;
+    return (return_path || 0) ? [ret, []] : ret;
+};
+window.amLangCount = 1;    //-->
+</script>
+<script type="text/javascript" src="/amember/application/default/views/public/js/jquery/jquery.ui.js?1348901837"></script>
+<script type="text/javascript" src="/amember/application/default/views/public/js/user.js?1348901837"></script>
+<script type="text/javascript" src="/amember/application/default/views/public/js/upload.js?1348901837"></script>
+<script type="text/javascript" src="/amember/application/default/views/public/js/magicselect.js?1348901837"></script>
+<script type="text/javascript">
+    //<!--
+    jQuery.datepicker.setDefaults({"closeText":"Done","prevText":"Prev","nextText":"Next","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]});    //-->
+</script>
+
+
+<!-- userLayoutHead() finish -->
+    </head>
+    <body style="background: url(/images/background2.jpg) repeat;">
+<div align="center" style="background: url(/images/background2.jpg) repeat;">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" width="786" height="100%">
+    <tbody><tr>
+      <td width="100%" bgcolor="#FFFFFF">
+        <p align="center"><img border="0" src="/images/header.jpg" width="780" height="152"></p>
+        <p>
+<br><br>
+</p><div class="centered">
+
+                        <div class="am-layout am-common">
+            <a name="top"></a>
+            <div class="am-body">
+                <div class="am-body-content-wrapper am-main">
+                    <div class="am-body-content">
+        <div class="am-body-content-top">
+                                </div>
+    <div class="am-body-content-content">
+    <!-- content starts here -->
+    <div class="am-login-form-wrapper">
+        <div class="am-form am-auth-form am-login-form">
+        <form name="login" method="post" action="/amember/login" id="am-login-form" _lpchecked="1">
+    <fieldset>
+        <legend>Login to your Account</legend>
+        <div class="am-row am-row-wide am-row-login-recaptcha" id="recaptcha-row" style="display: none;" data-recaptcha-theme="light" data-recaptcha-size="normal">
+            <div class="am-element am-element-recaptcha" id="recaptcha-element"></div>
+        </div>
+        <div class="am-row am-row-login-login">
+            <div class="am-element-title">
+                <label class="am-element-title" for="amember-login">Username/Email</label>
+            </div>
+            <div class="am-element">
+                <input type="text" id="amember-login" name="amember_login" size="15" value="" autofocus="autofocus" placeholder="Username/Email" autocomplete="off">
+            </div>
+        </div>
+        <div class="am-row am-row-login-pass">
+            <div class="am-element-title">
+                <label class="am-element-title" for="amember-pass">Password</label>
+            </div>
+            <div class="am-element">
+                <input type="password" id="amember-pass" name="amember_pass" class="am-pass-reveal" size="15" placeholder="Password" autocomplete="off"><span class="am-switch-reveal am-switch-reveal-off" title="Toggle Password Visibility"></span>
+                            </div>
+        </div>
+        <div class="am-row am-row-buttons">
+            <div class="am-element">
+                <input type="submit" value="Login">
+                <span class="am-form-login-switch-wrapper"><a href="/amember/login?sendpass" class="local-link am-form-login-switch">Forgot password?</a></span>
+            </div>
+        </div>
+    </fieldset>
+    <input type="hidden" name="login_attempt_id" value="1644807777">
+<input type="hidden" name="amember_redirect_url" value="/amember/member">
+<input type="hidden" name="_referer" value="https://www.lead-king.net/">
+</form>    </div>
+    </div>
+<div class="am-sendpass-form-wrapper">
+    <div class="am-form am-auth-form am-sendpass-form">
+        <form name="sendpass" method="post" action="/amember/sendpass" id="am-sendpass-form">
+    <fieldset>
+        <legend>Lost password?</legend>
+                <div class="am-row am-row-sendpass-email">
+            <div class="am-element-title">
+                <label for="sendpass">Username/Email</label>
+            </div>
+            <div class="am-element"><input type="text" name="login" id="sendpass" size="15" placeholder="Username/Email"></div>
+        </div>
+        <div class="am-row am-row-buttons">
+            <div class="am-element">
+                <input type="submit" value="Get Password">
+                <span class="am-form-login-switch-wrapper"><a href="/amember/login" class="local-link am-form-login-switch">Log In</a></span>
+            </div>
+        </div>
+    </fieldset>
+</form>    </div>
+</div>
+<script type="text/javascript">
+jQuery('.am-form-login-switch').click(function(){
+    jQuery('.am-login-form-wrapper, .am-sendpass-form-wrapper').toggle();
+    jQuery('.am-login-form-wrapper .errors, .am-sendpass-form-wrapper .errors, .am-body-content .am-errors').remove();
+    return false;
+});
+jQuery('.am-login-form-wrapper form, .am-sendpass-form-wrapper form').submit(function(){
+    jQuery('.am-body-content .am-errors').remove();
+});
+</script><div class="am-signup-link">Not registered yet? <a href="/amember/signup">Signup here</a></div>
+    </div>
+</div>
+<div id="am-flash" class="am-flash">
+    <div class="am-flash-mask"></div>
+    <div class="am-flash-content"></div>
+</div>                </div>
+            </div>
+        </div>
+        <script type="text/javascript" id="am-ctcs-v1">
+    (function(){
+    var url=(("https:" == document.location.protocol) ?
+        "https:\/\/www.lead-king.net\/amember\/aff\/click-js\/" : "https:\/\/www.lead-king.net\/amember\/aff\/click-js\/" );
+    var d=document, s=d.createElement('script'), src=d.getElementsByTagName('script')[0];
+    var w = window; var lo = w.location; var hr=lo.href; var ho=lo.host;  var se=lo.search;
+    var m = RegExp('[?&]ref=([^&]*)').exec(se);
+    var k = RegExp('[?&]keyword=([^&]*)').exec(se);
+    var ref = m && decodeURIComponent(m[1].replace(/\+/g, ' '));
+    var keyword = k && k[1];
+    s.type='text/javascript';s.async=true;
+    var jssrc = url+'?r='+ref+'&s='+encodeURIComponent(document.referrer);
+    if (k) jssrc = jssrc + '&keyword=' + keyword;
+    s.src=jssrc;
+    if(ref){src.parentNode.insertBefore(s,src); var uri = hr.toString().split(ho)[1];
+    uri = uri.replace(m[0], "");
+    if (k) uri = uri.replace(k[0], "");
+    w.history.replaceState('Object', 'Title', uri);}})();
+</script>
+        <p align="center">&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p align="center"></p>
+        <p align="center"><img border="0" src="/images/footer.jpg" width="780" height="25"></p>
+      </div></td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+
+<div id="__lpform_amember-login_numspan" style="display: none; z-index: 39 !important;"> 1</div><div id="__lpform_amember-login" style="max-height: 16px; vertical-align: top; position: absolute; top: 325.7px; left: 586px; z-index: 38;"><img id="__lpform_amember-login_icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAARNJREFUOBGlU72ORWAQPYREq9CtRryBQqJSaGziATyB1/AaV3c7ryAegUZHfxM1hUTiZ82EXbvVcicx35yZOWe+nxDiOP4E8FjX9WNb/22CILy25kjc3GUyTdkHPsSrk4l8GHFpB2/ZbQFVVXnwbQHXdX8EJEkCJRzHwXa7XLAsC57nQVEUxoZhwPd9aJrG+HASBbZtswDFXdeh73sEQUAQsiwjz3OEYcixrutIkoRr5PgI0zR9Jyj+i7fbxjzP3HOuUYJ3UBQFlmXBOI5omoYb0zQFXVRZlkx+Pp8wTRNVVXH9cCxAZBI5W13XZ4i2bfn7ldzA7VfIsoy1bgsMw/CewHEUcf+rDnxpJS4dIbojsnOiL0hfafwTOClcAAAAAElFTkSuQmCC" style="opacity: 0.6; vertical-align: top;"></div><div id="__lpform_amember-pass_numspan" style="display: none; z-index: 39 !important;"> 1</div><div id="__lpform_amember-pass" style="max-height: 16px; vertical-align: top; position: absolute; top: 422.613px; left: 586px; z-index: 38;"><img id="__lpform_amember-pass_icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAARNJREFUOBGlU72ORWAQPYREq9CtRryBQqJSaGziATyB1/AaV3c7ryAegUZHfxM1hUTiZ82EXbvVcicx35yZOWe+nxDiOP4E8FjX9WNb/22CILy25kjc3GUyTdkHPsSrk4l8GHFpB2/ZbQFVVXnwbQHXdX8EJEkCJRzHwXa7XLAsC57nQVEUxoZhwPd9aJrG+HASBbZtswDFXdeh73sEQUAQsiwjz3OEYcixrutIkoRr5PgI0zR9Jyj+i7fbxjzP3HOuUYJ3UBQFlmXBOI5omoYb0zQFXVRZlkx+Pp8wTRNVVXH9cCxAZBI5W13XZ4i2bfn7ldzA7VfIsoy1bgsMw/CewHEUcf+rDnxpJS4dIbojsnOiL0hfafwTOClcAAAAAElFTkSuQmCC" style="opacity: 0.6; vertical-align: top;"></div></body></html>
