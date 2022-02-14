@@ -1,7 +1,7 @@
-credentials.py
+src/credentials.py
 
-src/data/
-src/downloads/*
+src/data/*
+*.csv
 
 .idea/
 
