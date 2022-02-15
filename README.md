@@ -13,6 +13,12 @@ of all files retrieved per week.
 
     git clone https://github.com/metaperl/lead-king-dl.git
 
+## Create a virtual environment
+
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+
 ## Configure login
 
 Copy `src/credentials-sample.py` to `src/credentials.py`
