@@ -5,4 +5,4 @@ src/credentials.py
 *.pyc
 __pycache__
 
-venv/
+src/downloads/*.zip
