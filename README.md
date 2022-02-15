@@ -13,11 +13,10 @@ of all files retrieved per week.
 
     git clone https://github.com/metaperl/lead-king-dl.git
 
-## Create a virtual environment
+## Build
 
-    python3 -m venv venv
-    source venv/bin/activate
     pip install -r requirements.txt
+    cd lead-king-dl/src; mkdir data/weekly; mkdir data/daily
 
 ## Configure login
 
@@ -30,8 +29,10 @@ you can of course run the software manually and
 locally, but the ideal is to run it automatically
 every day.
 
-    @daily cd ~/prg/lead-king-dl; $PY src/main.py
-
+```shell
+# LEAD KING
+@daily cd $HOME/prg/lead-king-dl/src python main.py
+```
 
 # ACKNOWLEDGEMENTS
 
